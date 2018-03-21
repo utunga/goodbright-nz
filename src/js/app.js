@@ -2,6 +2,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sweetScroll = new SweetScroll({/* some options */});
 
+  window.toggleEmail = function() {
+      var curr = document.getElementById("email_display").style.display;
+      if (curr==="block") {
+        document.getElementById("email_display").style.display = "none";
+      }
+      else {
+        document.getElementById("email_display").style.display = "block";
+      }
+
+  };
+
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
     "particles": {

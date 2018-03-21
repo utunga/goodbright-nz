@@ -37,7 +37,13 @@
       margin-left:-75px;
     }
   }
-
+  .email_display {
+    display: none;
+    margin: 10px auto;
+    a {
+      color: #fff;
+    }
+  }
   .site-description {
     display:none;
     color: #FFF;
