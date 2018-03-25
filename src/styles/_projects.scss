@@ -10,7 +10,7 @@
   }
 }
 
-#current_projects {
+#projects_current {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,8 +30,9 @@
     height: auto;
     border-radius: 5px;
   }
-  h5 {
-    margin: 0;
+  h3, h4, h5 {
+    margin-top: 0;
+    padding-top: 0;
   }
   li {
     color: $main;
