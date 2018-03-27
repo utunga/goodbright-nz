@@ -1,6 +1,7 @@
 #projects {
   display: flex;
   flex-direction: column;
+  clear:both;
   justify-content: space-between;
   width: 90%;
   max-width: 960px;
@@ -12,6 +13,7 @@
 
 #projects_current {
   display: flex;
+  clear:both;
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
