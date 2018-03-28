@@ -12,7 +12,19 @@
 
 
 .resume {
-	.project-link {
+  .project-link {
 	  width: 300px;
+  }
+}
+
+.resume-link {
+  
+  A {
+      width: 100%;
+      text-decoration: none;
+      color: black;
+    I {
+      color: darkred;
+    }
   }
 }
