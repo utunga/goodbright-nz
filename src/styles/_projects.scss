@@ -28,13 +28,19 @@
 .user-projects {
   margin: 20px auto;
   img {
+    display: none;
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    @media only screen and (min-width: $cut) { 
+      display: block;
+    }
   }
   h3, h4, h5 {
-    margin-top: 0;
-    padding-top: 0;
+    @media only screen and (min-width: $cut) {
+      margin-top: 0;
+      padding-top: 0;
+    }
   }
   li {
     color: $main;
