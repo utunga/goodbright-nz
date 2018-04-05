@@ -23,8 +23,13 @@
       width: 100%;
       text-decoration: none;
       color: black;
+      font-size: 1.3em;
+      font-style: italic;
     I {
       color: darkred;
     }
+  }
+  A:hover {
+    text-decoration: underline;
   }
 }
