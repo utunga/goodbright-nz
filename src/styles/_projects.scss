@@ -25,8 +25,17 @@
 }
 
 
+.user-projects.first {
+  border-top: none;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+
 .user-projects {
   margin: 20px auto;
+  border-top: solid 1px black;
+  padding-top: 20px;
+  margin-top: 0px;
   img {
     display: none;
     max-width: 100%;
@@ -49,6 +58,7 @@
   p {
     margin-right: 5px;
   }
+
 }
 
 .contents {
@@ -61,7 +71,7 @@
 .contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
-    margin-top: -5%;
+    /*margin-top: -5%;*/
     width: 48%;
   }
 }
@@ -72,7 +82,7 @@
   }
   img {
     @media only screen and (min-width: $cut) {
-      float: right;
+      margin: auto;
     }
   }
 }
@@ -84,7 +94,7 @@
   }
   img {
     @media only screen and (min-width: $cut) {
-      float: left;
+      margin: auto;
     }
   }
 }
