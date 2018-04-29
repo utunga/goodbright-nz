@@ -1,8 +1,10 @@
-# Particle Jekyll Theme
+# Particle Jekyll Theme - As customized for GoodBright Consulting
 
 ![](./particle.jpg)
 
 This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+
+Do feel free to adapt to your purposes if you want, or head upstream for the original.
 
 The Theme features:
 
