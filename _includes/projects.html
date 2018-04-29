@@ -1,30 +1,39 @@
 <div>
-  <h3>Featured Projects </h3>
+  <h2>Recent Projects</h2>
 </div>
-<div class="user-projects">
+<div class="user-projects first">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/drama_box.png" | prepend: site.baseurl }}" />
+    <a target="_blank" href="{{ "/assets/pdf/exploring_art_entropy.pdf" | prepend: site.baseurl }}"><img alt="Great Outdoors Audience" src="{{ "/assets/img/go_outdoors_moon.png" | prepend: site.baseurl }}" />
+    <img alt="Great Outdoors backstage" src="{{ "/assets/img/great_outdoors_backstage.png" | prepend: site.baseurl }}" />
+  </a>
   </div>
   <div class="contents">
-    <h4>Drama Box </h4>
+    <h3>The great outdoors: algorithmic theater</h3>
     <ul>
-      <li>Crypto</li>
-      <li>Crypto</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+      <li>Text processing</li>
+      <li>Machine learning</li>
+      <li>Theater!</li>
+    </ul> 
+    <p>I recently created the text for Annie Dorsen's theater piece <b>The Great Outdoors</b> in collaboration with <a href="https://schwittlick.net">Marcel Schwittlick</a>. </p>
+    <p>This work involved building a system to harvest text from recent comments on the internet, measure the textual entropy of that text, and select it out in various ways to fit the aesthetics of the piece. As a programmer it was a truly fascinating and wonderful experience which I wrote up as a talk for a machine learning meetup, the slides of which are below. </p>
+    <a class="project-link" target="_blank" style="width:250px" href="{{ "/assets/pdf/exploring_art_entropy.pdf" | prepend: site.baseurl }}">View slides from the talk</a>
   </div>
 </div>
+
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <a target="_blank" href="https://twitter.com/GLITCHAUS/status/732453571422130176">
+      <img alt="Glitchaus data knit" src="{{ "/assets/img/glitchhaus_knit.png" | prepend: site.baseurl }}" />
+    </a>
   </div>
   <div class="contents-right">
-    <h4> Project Title </h4>
+    <h3>Glitchaus: Data knits</h3>
     <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+      <li>Data processing</li>
+      <li>Glitch Art</li>
+      <li>Fashion</li>
+    </ul> 
+    <p>I collaborated with <a href="http://notendo.com" target="_blank" >Jeff Donaldson</a>, one of the protagonists of the Glitch-Art movement and creator of the Glitchaus fashion brand on his data-knits project. I created a tool that he can use to take any binary and prepare it for physical projection into woven or knit textile form. Jeff used the program to prepare work for his <a href="http://www.btd-weimar.de/btd/shop/wear-en/glitchaus-dada-data-knit-ed-2/?lang=en">Bauhaus</a> collection amongst others.</p>
+    <a class="project-link" target="_blank" style="width:300px" href="https://twitter.com/GLITCHAUS/status/732453571422130176">Check out @glitchaus on twitter.</a>
   </div>
 </div>
