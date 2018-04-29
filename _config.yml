@@ -3,6 +3,7 @@ title: Goodbright Consulting
 description: Miles Thompson's professional home 
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 url: "http://goodbright.nz" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+logo: "/assets/img/goodbright_sm.png"
 
 # User settings
 site_description: Miles Thompson's professional home
@@ -11,6 +12,7 @@ twitter_username: utunga
 github_username:  utunga
 insta_username:  utunga216
 medium_username: utunga
+
 
 # Google-analytics
 google-analytics:
