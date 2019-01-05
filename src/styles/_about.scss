@@ -2,26 +2,48 @@
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
+  display: flex;
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
-  h4 {
+  h2, h4 {
     padding-top: 0;
+  }
+  h3 {
+    padding-top: 0.5em;
   }
   h4.spaced_under_empty_cert {
     padding-top: 1em;
   }
-}
 
-#skills {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-  h4 {
-    padding-top: 0;
+  .active_projects {
+
+    a.active_project {
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ul {
+      padding-left: 1em;
+    }
+
+    li {
+      clear: left;
+      margin-bottom: 1em;
+    }
+
+    i.status {
+      float: right;
+      font-size: .8em;
+      font-variant: small-caps;
+      font-style: normal;
+      font-weight: bold;
+    }
+
   }
 }
 
@@ -67,11 +89,12 @@
   padding-top: 0;
   font-style: italic;
 }
+
 .cert_img{
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   display: block;
   position: absolute;
   top: -1.5em;
@@ -86,6 +109,10 @@
 }
 .cert_scrum_master {
   background-image: url("../img/certified_scrum_master_seal.png");
+}
+
+.cert_patent {
+
 }
 
 /*

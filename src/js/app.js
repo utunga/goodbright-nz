@@ -2,16 +2,20 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sweetScroll = new SweetScroll({/* some options */});
 
-  window.toggleEmail = function() {
-      var curr = document.getElementById("email_display").style.display;
-      if (curr==="block") {
-        document.getElementById("email_display").style.display = "none";
-      }
-      else {
-        document.getElementById("email_display").style.display = "block";
-      }
+   document.querySelectorAll(".toggleEmailClicker")
+    .forEach(function (item, idx) {
+       item.addEventListener("click", function(event) {
+          console.log(event);
+          var elements = document.getElementsByClassName("email_display");
+          Array.prototype.forEach.call(elements, function(foo){
+            console.log(foo);
+            foo.style.display = 'block';
+          });
+          event.preventDefault();
+        }, false);
+    });
 
-  };
+
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
@@ -75,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "straight": false,
         "out_mode": "out",
-        "bounce": false,
+        "bounce": false, 
         "attract": {
           "enable": false,
           "rotateX": 600,

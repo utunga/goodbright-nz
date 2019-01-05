@@ -10,3 +10,20 @@
 @import 'projects';
 @import 'resume';
 @import 'footer';
+
+
+#skills {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+  h4 {
+    padding-top: 0;
+  }
+}
+
+.email_display {
+	display: none;
+}
