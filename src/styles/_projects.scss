@@ -95,6 +95,12 @@
     float: left;
     width: 48%;
   }
+  iframe {
+    @media only screen and (min-width: $cut) {
+      margin: auto;
+      max-width: 100%;
+    }
+  }
   img {
     @media only screen and (min-width: $cut) {
       margin: auto;
