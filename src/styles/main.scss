@@ -37,3 +37,27 @@
 .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.am_available {
+  font-weight: bolder;
+  color: green;
+  cursor: pointer;
+}
+.not_available {
+  display: none;
+  font-weight: bold;
+  color: darkkhaki;
+}
+
+.am_available.blink {
+  -webkit-animation: pulse 1000ms infinite alternate;
+          animation: pulse 1000ms infinite alternate;
+}
+@-webkit-keyframes pulse {
+  0% { color: white; }
+  100% {color: green; }
+}
+@keyframes pulse {
+  0% {  color: white }
+  100% { color: green; }
+}

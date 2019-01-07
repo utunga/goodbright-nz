@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sweetScroll = new SweetScroll({/* some options */});
 
-   document.querySelectorAll(".toggleEmailClicker")
+   document.querySelectorAll(".toggle_email_click")
     .forEach(function (item, idx) {
        item.addEventListener("click", function(event) {
           console.log(event);
