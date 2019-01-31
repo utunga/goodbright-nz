@@ -45,6 +45,18 @@
     }
 
   }
+
+  .resume-link {
+    display:none;
+    @media only screen and (min-width: $cut) {
+        display:block;
+    }
+    a {
+      font-size: 1.1rem;
+      font-style: normal;
+      padding-left: 0.1rem
+    }
+  }
 }
 
 .tech {
